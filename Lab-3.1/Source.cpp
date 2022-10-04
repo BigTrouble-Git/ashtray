@@ -28,6 +28,6 @@ int main() {
 
 	if (x >= 7) {
 		m = log10(2 * x + pow(e, 5 * x + 5));
-		cout << m;// << "m";
+		cout << m << "m";
 	}
 }
