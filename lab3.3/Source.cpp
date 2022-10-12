@@ -11,7 +11,7 @@
 using namespace std;
 
 int main() {
-		double x; cout << "x = "; cin >> x;    // вхідний аргумент
+		double x; cout << "x = ";   cin >> x;  // вхідний аргумент
 		double R1; cout << "R1 = "; cin >> R1; // вхідний параметр
 		double R2; cout << "R2 = "; cin >> R2; // вхідний параметр
 		double y;							   // результат обчислення виразу
