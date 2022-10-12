@@ -19,20 +19,38 @@ int main() {
 	cout << "b = "; cin >> b;
 	cout << "c = "; cin >> c;
 	cout << "x = "; cin >> x;
+	// скорочений спосіб розв'язання
 	if (x < 0 && b != 0) {
 		F = -a * x * x + b;
-		cout << F << "DEC1" << endl ;
+		cout << F  << endl ;
 		
 	}
 
 	if (x > 0 && b == 0) {
 		F = x / (x - c) + 5.5;
-		cout << F << "DEC2" << endl;
+		cout << F  << endl;
 	}
 
-	if (!(x < 0 && b != 0) && ! (x > 0 && b == 0)) {
+	if (!(x < 0 && b != 0) && !(x > 0 && b == 0)) {
 		F = x / -c;
-		cout << F << "DEC3"<< endl;
+		cout << F <<  endl;
 	}
 
+	// повний спосіб розв'язання
+	if (x < 0 && b != 0) {
+		F = -a * x * x + b;
+		cout << F  << endl;
+
+	}
+	else if (x > 0 && b == 0) {
+		F = x / (x - c) + 5.5;
+		cout << F << endl;
+	}
+	else {
+		F = x / -c;
+		cout << F  << endl;
+
+	}
+	cin.get();
+	return 0;
 }
