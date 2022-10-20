@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\User\source\repos\lab4.3\lab4.3\Source.cpp(8,37): warning C4101: 'B': unreferenced local variable
+C:\Users\User\source\repos\lab4.3\lab4.3\Source.cpp(8,43): warning C4101: 'y': unreferenced local variable
+C:\Users\User\source\repos\lab4.3\lab4.3\Source.cpp(8,34): warning C4101: 'A': unreferenced local variable
+  lab4.3.vcxproj -> C:\Users\User\source\repos\lab4.3\x64\Debug\lab4.3.exe
